@@ -1,0 +1,41 @@
+.input_c {
+  color: #000000;
+  width: 100%;
+  padding: 6px 8px;
+  margin-bottom: 2px;
+  border-radius: 8px;
+  font-size: 12px;
+  border: 1px hsla(72, 84%, 24%, 0.18) solid;
+}
+
+.container_c {
+  width: 300px;
+  background: #FFF;
+  border: 1px hsla(72, 84%, 24%, 0.68) solid;
+}
+
+.selected_c {
+  font-weight: bold;
+  color: #000000;
+  background: linear-gradient(172deg, hsl(72, 83%, 24%, .4) 0%, rgba(255,255,255,1) 100%)!important;
+  border: 1px #ff0303 dot-dash;
+}
+
+.hover_c {
+  background: linear-gradient(160deg, hsl(72, 83%, 24%, .6) 0%, rgba(255,255,255,1) 100%)!important;
+  color: #000000;
+  border: 1px #000000 dashed;
+}
+
+.button_c {
+  background: linear-gradient(160deg, hsl(72, 83%, 24%, 0.1) 0%, rgba(255,255,255,1) 100%);
+}
+
+.dropdown_c {
+  background: #FFF;
+  border: 1px hsla(72, 84%, 24%, 0.68) solid;
+}
+
+.dropdown_c div:hover {
+  background: hsla(72, 84%, 24%, 0.1);
+}
