@@ -117,6 +117,7 @@ const EmployeeCreateForm: React.FC = () => {
                     value={field.value || new Date()}
                     onChange={(date: any) => setValue("dateOfBirth", date)}
                     customization={customizationDataPicker}
+                    aria-label='Sélectionner une date de naissance'
                   />
                 </FormControl>
                 <FormMessage>{errors.dateOfBirth?.message}</FormMessage>
@@ -136,6 +137,7 @@ const EmployeeCreateForm: React.FC = () => {
                     value={field.value || new Date()}
                     onChange={(date: any) => setValue("startDate", date)}
                     customization={customizationDataPicker}
+                    aria-label='Sélectionner une date de début'
                   />
                 </FormControl>
                 <FormMessage>{errors.startDate?.message}</FormMessage>
@@ -181,6 +183,7 @@ const EmployeeCreateForm: React.FC = () => {
             <FormField
               control={control}
               name='state'
+              aria-label='Sélectionner un état'
               render={({ field }) => (
                 <FormItem className='space-y-0 m-0'>
                   <FormLabel className='text-md lg:text-lg'>State</FormLabel>
@@ -212,6 +215,7 @@ const EmployeeCreateForm: React.FC = () => {
           <FormField
             control={control}
             name='department'
+            aria-label='Sélectionner un département'
             render={({ field }) => (
               <FormItem className='space-y-0 m-0'>
                 <FormLabel className='text-md lg:text-lg'>Department</FormLabel>

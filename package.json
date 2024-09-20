@@ -2,6 +2,7 @@
   "name": "hrnet_v2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Raphael-Philippart.github.io/HR-Net",
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
     "@hookform/resolvers": "^3.9.0",
@@ -38,7 +39,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

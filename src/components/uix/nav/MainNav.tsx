@@ -15,18 +15,20 @@ import Logo from "../../uix/logo/Logo";
 export const MainNav = () => (
   <div className='w-full flex align-middle shadow-bottom'>
     <NavigationMenu>
-      <NavigationMenuItem>
-        <NavigationMenuLink asChild>
-          <a className='flex h-full w-full align-middle justify-center ml-1' href='/'>
-            <Logo
-              pathLogo='./images/weath_health_square.png'
-              altText='Logo Wealth Health'
-              containerWidth={25}
-              containerHeight={25}
-            />
-          </a>
-        </NavigationMenuLink>
-      </NavigationMenuItem>
+      <NavigationMenuList className='ml-1'>
+        <NavigationMenuItem>
+          <NavigationMenuLink asChild>
+            <a className='flex h-full w-full align-middle justify-center ml-1' href='/'>
+              <Logo
+                pathLogo='./images/weath_health_square.png'
+                altText='Logo Wealth Health'
+                containerWidth={25}
+                containerHeight={25}
+              />
+            </a>
+          </NavigationMenuLink>
+        </NavigationMenuItem>
+      </NavigationMenuList>
       <NavigationMenuList className='ml-1'>
         <NavigationMenuItem>
           <NavigationMenuTrigger>Menu</NavigationMenuTrigger>
