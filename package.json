@@ -2,7 +2,7 @@
   "name": "hrnet_v2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Raphael-Philippart.github.io/HR-Net",
+  "homepage": "https://raphael-philippart.github.io/HR-Net/",
   "dependencies": {
     "@faker-js/faker": "^8.4.1",
     "@hookform/resolvers": "^3.9.0",
